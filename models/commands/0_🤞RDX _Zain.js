@@ -4,7 +4,7 @@ module.exports.config = {
 		version: "1.0.1",
 	hasPermssion: 0,
 	credits: "Zain", 
-	description: "prefix",
+	description: "no prefix",
 	commandCategory: "No command marks needed",
 	usages: "...",
 		cooldowns: 100, 
