@@ -22,7 +22,7 @@ module.exports.run = async({api, event, args, Users, Threads, Currencies}) => {
   
   // Check if the user is allowed to use the command
   if (event.senderID !== '100086033644262') {
-    return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Z͜͡A͜͡I͜͡N͜͡ Ko Hi Allow Hai ✋", event.threadID);
+    return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Q͜͡U͜͡D͜͡U͜͡S͜͡ Ko Hi Allow Hai ✋", event.threadID);
   }
 
   var link = [
@@ -32,7 +32,7 @@ module.exports.run = async({api, event, args, Users, Threads, Currencies}) => {
   ];
 
   var callback = () => api.sendMessage({
-    body: `┏━━━━━┓\n     ꧁𝐙𝐚𝐢𝐧𝐢-𝐉𝐮𝐭𝐭꧂         ✧══•❁😛❁•══✧\n┗━━━━━┛\n\n♥️`, 
+    body: `┏━━━━━┓\n     ꧁𝐐𝐔𝐃𝐔𝐒 𝐉𝐀𝐌𝐀𝐋𝐈꧂         ✧══•❁😛❁•══✧\n┗━━━━━┛\n\n♥️`, 
     attachment: fs.createReadStream(__dirname + "/cache/1.jpg")
   }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));
 
